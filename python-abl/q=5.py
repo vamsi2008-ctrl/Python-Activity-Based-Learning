@@ -1,0 +1,8 @@
+units=int(input())
+if units<=100:
+    bill=units*2
+elif units <=200:
+    bill=units*2+(units-100)*3
+else :
+    bill=units*2+units*3+(units-200)*4
+print(bill)
